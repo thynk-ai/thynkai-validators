@@ -1,0 +1,13 @@
+{
+  "runId": "run-1",
+  "status": "fail",
+  "score": 1,
+  "evidence": {
+    "metrics": {}
+  },
+  "provenance": {
+    "validatorId": "v:fail",
+    "validatorVersion": "1.0.0",
+    "executedAt": "2025-01-02T00:00:00.000Z"
+  }
+}

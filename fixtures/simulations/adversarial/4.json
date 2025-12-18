@@ -1,0 +1,15 @@
+{
+  "runId": "run-1",
+  "status": "pass",
+  "score": 1,
+  "evidence": {
+    "metrics": {
+      "a": 1
+    }
+  },
+  "provenance": {
+    "validatorId": "v:outlier-high",
+    "validatorVersion": "1.0.0",
+    "executedAt": "2025-01-02T00:00:00.000Z"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "runId": "run-1",
+  "status": "error",
+  "score": 1,
+  "evidence": {
+    "metrics": {}
+  },
+  "provenance": {
+    "validatorId": "v:error",
+    "validatorVersion": "1.0.0",
+    "executedAt": "2025-01-02T00:00:00.000Z"
+  },
+  "errorCode": "validator_exception",
+  "errorMessage": "boom"
+}

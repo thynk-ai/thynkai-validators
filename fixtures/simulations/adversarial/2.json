@@ -1,0 +1,18 @@
+{
+  "runId": "run-1",
+  "status": "pass",
+  "score": 0.72,
+  "evidence": {
+    "metrics": {
+      "a": 1,
+      "b": 2,
+      "c": 3,
+      "d": 4
+    }
+  },
+  "provenance": {
+    "validatorId": "v:beta",
+    "validatorVersion": "1.0.0",
+    "executedAt": "2025-01-02T00:00:00.000Z"
+  }
+}
