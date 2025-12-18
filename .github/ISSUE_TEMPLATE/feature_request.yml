@@ -1,0 +1,19 @@
+name: Proposal / feature request
+description: Propose scoring changes, new validator requirements, or harness improvements.
+labels: ["validation", "discussion"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility & migration
+      description: Does this break existing validators or scoring consumers?
+    validations:
+      required: true
+
