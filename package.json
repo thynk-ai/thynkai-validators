@@ -1,0 +1,23 @@
+{
+  "name": "@thynkai/validators",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Validation & scoring workflows (v1) for ThynkAI.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "ci": "npm run typecheck && npm run build && npm run test",
+    "harness": "node dist/harness/cli.js --help"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
